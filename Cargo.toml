@@ -1,0 +1,8 @@
+[package]
+name = "logflux"
+version = "0.1.0"
+edition = "2024"
+authors = ["Subham<subhams2804@gmail.com>"]
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time"] }
